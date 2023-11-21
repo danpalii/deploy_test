@@ -1,0 +1,10 @@
+{% extends 'products/layouts/base.html' %}
+
+{% block content %}
+<h1>Hello World !!!!</h1>
+<ul>
+    {% for product in products %}
+        <li>{{ product.name }}, {{ product.price }}$</li>
+    {% endfor %}
+</ul>
+{% endblock %}
