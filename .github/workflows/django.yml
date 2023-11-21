@@ -29,4 +29,4 @@ jobs:
     - name: Run Tests
       run: |
         cd web
-        python web/manage.py test
+        python manage.py test
